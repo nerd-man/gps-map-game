@@ -66,7 +66,6 @@ var items = [[40.481528, -112.006669, zombieIcon],
 [40.483725, -112.0055, zombieIcon],
 [40.483276, -112.006071, hospitalIcon],
 [40.48171, -112.009456, weaponsIcon],
-[40.480645, -112.008204, weaponsIcon]
 ];
 var itemMarkers = [];
 var tolerance = 10; // in meters
