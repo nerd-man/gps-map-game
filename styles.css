@@ -22,9 +22,27 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 
 .nav-bar a {
     color: grey;
     text-decoration: none;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+#health {
+    display: flex;
+    align-items: center;
+}
+
+progress::-webkit-progress-value {
+    -webkit-appearance: none;
+    background-color: red;
 }
